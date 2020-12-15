@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請選擇飲品" 
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:spinnerMode="dialog"
+        android:entries="@array/drink_list"
+        android:prompt="@string/spn_drink_list"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請選擇冰量" 
+        android:textSize="20sp"/>
+
+    <RadioGroup
+        android:id="@+id/radGrpIce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radBtnLess"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radBtnHot"
+            android:textSize="20sp"
+            android:text="熱"/>
+        <RadioButton
+            android:id="@+id/radBtnLess"
+            android:textSize="20sp"
+            android:text="少冰"/> 
+        <RadioButton
+            android:id="@+id/radBtnLight"
+            android:textSize="20sp"
+            android:text="微冰"/>
+        <RadioButton
+            android:id="@+id/radBtnNo"
+            android:textSize="20sp"
+            android:text="去冰"/>                 
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="請選擇甜度" 
+        android:textSize="20sp"/>
+    <RadioGroup
+        android:id="@+id/radGrpSweet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radBtnSugerLess"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radBtnSugerLess"
+            android:textSize="20sp"
+            android:text="少糖"/>
+        <RadioButton
+            android:id="@+id/radBtnSugerhalf"
+            android:textSize="20sp"
+            android:text="半糖"/> 
+        <RadioButton
+            android:id="@+id/radBtnSugerLight"
+            android:textSize="20sp"
+            android:text="微糖"/>
+        <RadioButton
+            android:id="@+id/radBtnSugerFree"
+            android:textSize="20sp"
+            android:text="無糖"/>                 
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="請選擇數量:" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="確認" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="放棄" />
+
+</LinearLayout>

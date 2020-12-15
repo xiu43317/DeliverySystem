@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">appOrder</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="drink_list">
+        <item >紅茶冰</item>
+        <item >凍檸茶</item>
+        <item >鮮奶茶</item>
+        <item >冬瓜茶</item>
+        <item >冬瓜紅茶</item>
+        <item >豆漿紅茶</item>
+    </string-array>
+    <string name="spn_drink_list">請選擇飲品</string>
+    <string name="radBtnHot">熱</string>
+    <string name="radBtnLess">少冰</string>
+    <string name="radBtnLight">微冰</string>
+    <string name="radBtnNo">去冰</string>
+    <string name="radBtnSugerLess">少糖</string>
+    <string name="radBtnSugerhalf">半糖</string>
+    <string name="radBtnSugerLight">微糖</string>
+    <string name="radBtnSugerFree">無糖</string>
+
+</resources>
