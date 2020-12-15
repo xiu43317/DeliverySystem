@@ -1,2 +1,6 @@
 # DeliverySystem
 This system is very simple to implement the food delivery by android APP and website
+I made this system few years ago. During that time, android studio had lunched for one year, so I used eclipse to finish this project.
+There are three floders "appOrder" for customers' use, "apporderWeb" for shops' use and ReceiveMessage for delivery men's use. It is very easy to fulfill this function to send the online orders to shop owners. I made some php API and use android system's volley to post customers' requests. When the orders are sent, this data will be saved in the mysql database and show on the shops' pages. Then when shop owners set up the meals, they just push this order to a online pool and delivery men's app can search this order in this pool. I set a polling function which are running on the background by using android's service function. So if the delivery men don't want to get new order. they can turn off the service function by toggle the button on their interface.
+Here is the Demo vedio Link: <a href="https://www.youtube.com/watch?v=Qg286PWINIY&feature=youtu.be">vedio</a>
+Here is the introduction powerpoint written with Chinese: <a href="https://docs.google.com/presentation/d/0B-hhunAMm_j5c0RxRV9HdWdObXc/edit#slide=id.p1">powerpoint</a>
